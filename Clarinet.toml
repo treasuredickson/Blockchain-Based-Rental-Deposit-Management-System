@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/deposit-escrow.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.property-condition]
+path = 'contracts/property-condition.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
